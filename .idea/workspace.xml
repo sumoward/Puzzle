@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="750f7269-ac7c-4a33-8f0b-668e0d764f8d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../playground/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Workday/.gitignore" afterPath="$PROJECT_DIR$/../Workday/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Workday/.idea/Workday.iml" afterPath="$PROJECT_DIR$/../Workday/.idea/Workday.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Workday/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Workday/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Workday/unit_test/wordpaths.py" afterPath="$PROJECT_DIR$/../Workday/unit_test/wordpaths.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Workday/src/wordpaths.py" afterPath="$PROJECT_DIR$/../Workday/src/wordpaths.py" />
     </list>
     <ignored path="Puzzle.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,7 +18,8 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Puzzle$Unittests_in_wordpaths.coverage" NAME="Unittests in wordpaths Coverage Results" MODIFIED="1458925203874" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Workday/unit_test" />
+    <SUITE FILE_PATH="coverage/Puzzle$Unittests_in_wordpaths.coverage" NAME="Unittests in wordpaths Coverage Results" MODIFIED="1458925320881" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Workday/unit_test" />
+    <SUITE FILE_PATH="coverage/Puzzle$wordpaths.coverage" NAME="wordpaths Coverage Results" MODIFIED="1458925653127" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Workday/src" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -54,17 +50,34 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="wordpaths.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="wordpaths.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../Workday/src/wordpaths.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="133" column="47" selection-start-line="133" selection-start-column="47" selection-end-line="133" selection-end-column="47" />
+            <state relative-caret-position="307">
+              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="35" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="wordpaths.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="words.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Workday/resources/words.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Puzzle.pstat" pinned="false" current-in-tab="false">
+        <entry file="mock://C:\Users\desktop1\.PyCharm2016.1\system\snapshots\Puzzle.pstat">
+          <provider selected="true" editor-type-id="profiler-session-editor">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="wordpaths.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../Workday/unit_test/wordpaths.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="458">
@@ -107,8 +120,8 @@
       <list>
         <option value="$PROJECT_DIR$/README.txt" />
         <option value="$PROJECT_DIR$/../Workday/.gitignore" />
-        <option value="$PROJECT_DIR$/../Workday/src/wordpaths.py" />
         <option value="$PROJECT_DIR$/../Workday/unit_test/wordpaths.py" />
+        <option value="$PROJECT_DIR$/../Workday/src/wordpaths.py" />
       </list>
     </option>
   </component>
@@ -187,7 +200,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="unit_test" />
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -201,7 +214,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
+              <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -226,7 +239,25 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in wordpaths">
+  <component name="RunManager" selected="Python.wordpaths">
+    <configuration default="false" name="wordpaths" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Workday/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Workday" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Workday/src/wordpaths.py" />
+      <option name="PARAMETERS" value="C:\Users\desktop1\PycharmProjects\Workday\resources\words.txt cat dog" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
     <configuration default="false" name="Unittests in wordpaths" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -458,12 +489,14 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
-    <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in wordpaths" />
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Python.wordpaths" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in wordpaths" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in wordpaths" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Python.wordpaths" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in wordpaths" />
       </list>
     </recent_temporary>
   </component>
@@ -481,6 +514,14 @@
       <option name="presentableId" value="Default" />
       <updated>1456153155569</updated>
     </task>
+    <task id="LOCAL-00001" summary="a little housekeeping">
+      <created>1458925256376</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1458925256376</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -497,11 +538,12 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26599148" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -547,6 +589,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="a little housekeeping" />
+    <option name="LAST_COMMIT_MESSAGE" value="a little housekeeping" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -725,18 +771,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Workday/src/wordpaths.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="133" column="47" selection-start-line="133" selection-start-column="47" selection-end-line="133" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../Workday/unit_test/wordpaths.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="458">
           <caret line="45" column="11" selection-start-line="45" selection-start-column="11" selection-end-line="45" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Workday/resources/words.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Workday/src/wordpaths.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="35" />
           <folding />
         </state>
       </provider>
