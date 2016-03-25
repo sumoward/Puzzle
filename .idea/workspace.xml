@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="750f7269-ac7c-4a33-8f0b-668e0d764f8d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../playground/.idea/vcs.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/Puzzle.iml" afterPath="$PROJECT_DIR$/.idea/BogglePuzzle.iml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Workday/.idea/Workday.iml" afterPath="$PROJECT_DIR$/../Workday/.idea/word path puzzle graph solution.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Workday/src/wordpaths.py" afterPath="$PROJECT_DIR$/../Workday/src/wordpaths.py" />
     </list>
@@ -53,8 +55,8 @@
       <file leaf-file-name="wordpaths.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../Workday/src/wordpaths.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="307">
-              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="35" />
+            <state relative-caret-position="356">
+              <caret line="183" column="29" selection-start-line="183" selection-start-column="29" selection-end-line="183" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -166,13 +168,13 @@
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Puzzle" />
+              <option name="myItemId" value="BogglePuzzle" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Puzzle" />
+              <option name="myItemId" value="BogglePuzzle" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -182,7 +184,7 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Puzzle" />
+              <option name="myItemId" value="BogglePuzzle" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -192,7 +194,7 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Puzzle" />
+              <option name="myItemId" value="BogglePuzzle" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -206,7 +208,7 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Puzzle" />
+              <option name="myItemId" value="BogglePuzzle" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -220,7 +222,7 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Puzzle" />
+              <option name="myItemId" value="BogglePuzzle" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -521,7 +523,14 @@
       <option name="project" value="LOCAL" />
       <updated>1458925256376</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="oustanding bug needs addressing">
+      <created>1458925932801</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1458925932801</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -534,9 +543,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26599148" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26599148" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -592,7 +601,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="a little housekeeping" />
-    <option name="LAST_COMMIT_MESSAGE" value="a little housekeeping" />
+    <MESSAGE value="oustanding bug needs addressing" />
+    <option name="LAST_COMMIT_MESSAGE" value="oustanding bug needs addressing" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -789,8 +799,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../Workday/src/wordpaths.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="35" />
+        <state relative-caret-position="356">
+          <caret line="183" column="29" selection-start-line="183" selection-start-column="29" selection-end-line="183" selection-end-column="29" />
           <folding />
         </state>
       </provider>

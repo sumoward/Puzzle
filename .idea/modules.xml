@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/Puzzle.iml" filepath="$PROJECT_DIR$/.idea/Puzzle.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../Workday/.idea/Workday.iml" filepath="$PROJECT_DIR$/../Workday/.idea/Workday.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/BogglePuzzle.iml" filepath="$PROJECT_DIR$/.idea/BogglePuzzle.iml" />
       <module fileurl="file://$PROJECT_DIR$/../playground/.idea/playground.iml" filepath="$PROJECT_DIR$/../playground/.idea/playground.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Workday/.idea/word path puzzle graph solution.iml" filepath="$PROJECT_DIR$/../Workday/.idea/word path puzzle graph solution.iml" />
     </modules>
   </component>
 </project>
