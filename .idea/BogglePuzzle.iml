@@ -4,7 +4,7 @@
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="jdk" jdkName="Python 3.4.3 (C:\Python34\python.exe)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="playground" />
     <orderEntry type="module" module-name="word path puzzle graph solution" />
+    <orderEntry type="module" module-name="playground" />
   </component>
 </module>
