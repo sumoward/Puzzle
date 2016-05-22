@@ -4,7 +4,6 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/BogglePuzzle.iml" filepath="$PROJECT_DIR$/.idea/BogglePuzzle.iml" />
       <module fileurl="file://$PROJECT_DIR$/../Paint_Puzzle/.idea/playground.iml" filepath="$PROJECT_DIR$/../Paint_Puzzle/.idea/playground.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../Workday/.idea/word path puzzle graph solution.iml" filepath="$PROJECT_DIR$/../Workday/.idea/word path puzzle graph solution.iml" />
     </modules>
   </component>
 </project>

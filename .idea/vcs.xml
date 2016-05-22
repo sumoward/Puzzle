@@ -2,7 +2,8 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../Paint_Puzzle" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../Paint_Puzzle/Paint-Puzzle" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../Workday" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/../playground" vcs="Git" />
   </component>
 </project>
